@@ -1,0 +1,14 @@
+.breadcrumb {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.breadcrumb-item {
+    color: var(--gray-500);
+}
+
+.breadcrumb-item.active {
+    color: var(--primary);
+    font-weight: 600;
+}

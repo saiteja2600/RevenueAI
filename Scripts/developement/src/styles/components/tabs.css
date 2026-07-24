@@ -1,0 +1,15 @@
+.tabs {
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab {
+    padding: .75rem 1rem;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary);
+}
