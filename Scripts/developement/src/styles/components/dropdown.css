@@ -1,0 +1,51 @@
+.dropdown{
+
+    position:relative;
+
+}
+
+.dropdown-toggle{
+
+    cursor:pointer;
+
+}
+
+.dropdown-menu{
+
+    position:absolute;
+
+    top:110%;
+
+    right:0;
+
+    width:180px;
+
+    background:white;
+
+    border-radius:8px;
+
+    box-shadow:var(--shadow-md);
+
+    display:none;
+
+}
+
+.dropdown-item{
+
+    padding:.8rem 1rem;
+
+    cursor:pointer;
+
+}
+
+.dropdown-item:hover{
+
+    background:#f3f4f6;
+
+}
+
+.dropdown.active .dropdown-menu{
+
+    display:block;
+
+}

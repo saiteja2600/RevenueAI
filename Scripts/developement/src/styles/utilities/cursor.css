@@ -1,0 +1,15 @@
+.pointer {
+    cursor: pointer;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.grab {
+    cursor: grab;
+}
+
+.wait {
+    cursor: wait;
+}

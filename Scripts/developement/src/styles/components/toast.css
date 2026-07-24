@@ -1,0 +1,55 @@
+.toast-container{
+
+    position:fixed;
+
+    top:20px;
+
+    right:20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1rem;
+
+    z-index:9999;
+
+}
+
+.toast{
+
+    min-width:280px;
+
+    padding:1rem;
+
+    border-radius:8px;
+
+    color:white;
+
+    box-shadow:var(--shadow-md);
+
+}
+
+.toast-success{
+
+    background:#22c55e;
+
+}
+
+.toast-error{
+
+    background:#ef4444;
+
+}
+
+.toast-warning{
+
+    background:#f59e0b;
+
+}
+
+.toast-info{
+
+    background:#3b82f6;
+
+}

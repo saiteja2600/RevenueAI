@@ -1,0 +1,12 @@
+.scale-in {
+    animation: scaleIn .3s ease;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
