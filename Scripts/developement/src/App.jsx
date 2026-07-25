@@ -1,11 +1,23 @@
+import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout";
 
-
+import Register from "./pages/Register";
+import Login from "./pages/Login";
 function App() {
   return (
-    <Layout>
-      <h1>Dashboard</h1>
-    </Layout>
+    <BrowserRouter>
+      <Routes>
+
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+
+
+        <Route path="/" element={<Navigate to="/login" replace />} />
+
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 

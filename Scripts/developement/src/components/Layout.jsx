@@ -1,43 +1,49 @@
 import React, { Component } from "react";
-import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
-import "../styles/layout.css";
+import Sidebar from "./Sidebar";
 
 class Layout extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      sidebarOpen: true,
+      sidebarOpen: false,
     };
+    this.toggleSidebar = this.toggleSidebar.bind(this);
+    this.closeSidebar = this.closeSidebar.bind(this);
   }
 
-  toggleSidebar = () => {
-    this.setState((prevState) => ({
-      sidebarOpen: !prevState.sidebarOpen,
-    }));
-  };
+  toggleSidebar() {
+    this.setState((prev) => ({ sidebarOpen: !prev.sidebarOpen }));
+  }
+
+  closeSidebar() {
+    this.setState({ sidebarOpen: false });
+  }
 
   render() {
+    const { sidebarOpen } = this.state;
+
     return (
-      <div className="layout">
+      <div className="app-shell">
+        <Navbar toggleSidebar={this.toggleSidebar} />
+
         <Sidebar
-          sidebarOpen={this.state.sidebarOpen}
+          sidebarOpen={sidebarOpen}
           toggleSidebar={this.toggleSidebar}
         />
 
-        <div className="main-content">
-          <Navbar
-            sidebarOpen={this.state.sidebarOpen}
-            toggleSidebar={this.toggleSidebar}
-          />
 
-          <main className="content">
-            <div className="container">
-              {this.props.children}
-            </div>
-          </main>
-        </div>
+        {sidebarOpen && (
+          <div
+            className="sidebar-overlay show"
+            onClick={this.closeSidebar}
+          />
+        )}
+
+
+        <main className="page-content">
+          {this.props.children}
+        </main>
       </div>
     );
   }
