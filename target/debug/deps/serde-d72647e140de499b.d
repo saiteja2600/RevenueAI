@@ -1,0 +1,14 @@
+D:\Repostery\RevenueAI\target\debug\deps\serde-d72647e140de499b.d: C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs D:\Repostery\RevenueAI\target\debug\build\serde-37c341c6fdfd1c12\out/private.rs
+
+D:\Repostery\RevenueAI\target\debug\deps\libserde-d72647e140de499b.rlib: C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs D:\Repostery\RevenueAI\target\debug\build\serde-37c341c6fdfd1c12\out/private.rs
+
+D:\Repostery\RevenueAI\target\debug\deps\libserde-d72647e140de499b.rmeta: C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs D:\Repostery\RevenueAI\target\debug\build\serde-37c341c6fdfd1c12\out/private.rs
+
+C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs:
+C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs:
+C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs:
+C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs:
+C:\Users\manoharchippada\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs:
+D:\Repostery\RevenueAI\target\debug\build\serde-37c341c6fdfd1c12\out/private.rs:
+
+# env-dep:OUT_DIR=D:\\Repostery\\RevenueAI\\target\\debug\\build\\serde-37c341c6fdfd1c12\\out

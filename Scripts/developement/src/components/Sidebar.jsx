@@ -26,12 +26,12 @@ class Sidebar extends Component {
         <nav className="sidebar-menu">
           <ul>
             <li className="sidebar-item">Dashboard</li>
-            <li className="sidebar-item">Students</li>
-            <li className="sidebar-item">Teachers</li>
-            <li className="sidebar-item">Principal</li>
-            <li className="sidebar-item">Courses</li>
-            <li className="sidebar-item">Attendance</li>
+            <li className="sidebar-item">Analytics</li>
             <li className="sidebar-item">Revenue</li>
+            <li className="sidebar-item">Products</li>
+            <li className="sidebar-item">Orders</li>
+            <li className="sidebar-item">Customers</li>
+            <li className="sidebar-item">Marketing</li>
             <li className="sidebar-item">Reports</li>
             <li className="sidebar-item">Settings</li>
           </ul>

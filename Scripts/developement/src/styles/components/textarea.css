@@ -1,8 +1,0 @@
-.textarea {
-    width: 100%;
-    min-height: 120px;
-    padding: .75rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    resize: vertical;
-}

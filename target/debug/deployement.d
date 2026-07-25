@@ -1,0 +1,1 @@
+D:\Repostery\RevenueAI\target\debug\deployement.exe: D:\Repostery\RevenueAI\Scripts\deployement\src\auth.rs D:\Repostery\RevenueAI\Scripts\deployement\src\connection.rs D:\Repostery\RevenueAI\Scripts\deployement\src\main.rs D:\Repostery\RevenueAI\Scripts\deployement\src\models.rs
